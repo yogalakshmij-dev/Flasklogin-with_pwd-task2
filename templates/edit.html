@@ -1,0 +1,19 @@
+<form action="#" method="post">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" value="{{students['Name']}}" placeholder="name"><br><br>
+
+    <label for="age">Age:</label>
+    <input type="number" name="age" id="age" value="{{students['Age']}}" placeholder="age"><br><br>
+
+    <label for="roll_no">Roll No:</label>
+    <input type="number" name="roll_no" id="roll_no" value="{{students['Roll_No']}}" placeholder="roll_no"><br><br>
+
+    <label for="marks">Marks:</label><br>
+    <input type="number" name="marks1" id="marks1" value="{{students['Marks'][0]}}" placeholder="marks1" > 
+    <input type="number" name="marks2" id="marks2" value="{{students['Marks'][1]}}" placeholder="marks1" > 
+    <input type="number" name="marks3" id="marks3" value="{{students['Marks'][2]}}" placeholder="marks1" > 
+    <input type="number" name="marks4" id="marks4" value="{{students['Marks'][3]}}" placeholder="marks1" > 
+    <input type="number" name="marks5" id="marks5" value="{{students['Marks'][4]}}" placeholder="marks1" ><br><br>
+
+    <input type="submit" value="submit">
+</form>
